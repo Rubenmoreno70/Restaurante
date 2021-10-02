@@ -1,0 +1,11 @@
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\bin\Debug\netstandard2.1\RUCsa.App.Persistencia.deps.json
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\bin\Debug\netstandard2.1\RUCsa.App.Persistencia.dll
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\bin\Debug\netstandard2.1\RUCsa.App.Persistencia.pdb
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\bin\Debug\netstandard2.1\RUCsa.App.Dominio.dll
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\bin\Debug\netstandard2.1\RUCsa.App.Dominio.pdb
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.csprojAssemblyReference.cache
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.AssemblyInfoInputs.cache
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.AssemblyInfo.cs
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.csproj.CopyComplete
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.dll
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Persistencia\obj\Debug\netstandard2.1\RUCsa.App.Persistencia.pdb

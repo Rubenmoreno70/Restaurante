@@ -1,0 +1,8 @@
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\bin\Debug\netstandard2.0\RUCsa.App.Dominio.deps.json
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\bin\Debug\netstandard2.0\RUCsa.App.Dominio.dll
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\bin\Debug\netstandard2.0\RUCsa.App.Dominio.pdb
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\obj\Debug\netstandard2.0\RUCsa.App.Dominio.csprojAssemblyReference.cache
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\obj\Debug\netstandard2.0\RUCsa.App.Dominio.AssemblyInfoInputs.cache
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\obj\Debug\netstandard2.0\RUCsa.App.Dominio.AssemblyInfo.cs
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\obj\Debug\netstandard2.0\RUCsa.App.Dominio.dll
+C:\RESTAURANTUCsa\RUCsa.App\RUCsa.App.Dominio\obj\Debug\netstandard2.0\RUCsa.App.Dominio.pdb
