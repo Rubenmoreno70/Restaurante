@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\RESTAURANTUCsa\\RUCsa.App\\RUCsa.App.Dominio\\RUCsa.App.Dominio.csproj": {
+                "projectPath": "C:\\RESTAURANTUCsa\\RUCsa.App\\RUCsa.App.Dominio\\RUCsa.App.Dominio.csproj"
+              },
               "C:\\RESTAURANTUCsa\\RUCsa.App\\RUCsa.App.Persistencia\\RUCsa.App.Persistencia.csproj": {
                 "projectPath": "C:\\RESTAURANTUCsa\\RUCsa.App\\RUCsa.App.Persistencia\\RUCsa.App.Persistencia.csproj"
               }

@@ -9,6 +9,7 @@
       "RUCsa.App.Consola/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
+          "RUCsa.App.Dominio": "1.0.0",
           "RUCsa.App.Persistencia": "1.0.0"
         },
         "runtime": {
