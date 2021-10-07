@@ -1,0 +1,18 @@
+﻿@page
+@model RUCsa.App.Frontend.Pages.EstudiantesModel
+@{
+}
+<h1>Listado Estudiantes</h1>
+<table class="table">
+   @foreach (var estudiante in Model.Estudiantes)
+   {
+     <tr>
+         <td>@estudiante.nombre</td>
+         <td>@estudiante.apellidos</td>
+         <td>@estudiante.identificacion</td>
+         <td>@estudiante.edad</td>
+         <td>@estudiante.programa</td>
+     </tr>  
+   } 
+
+</table>
