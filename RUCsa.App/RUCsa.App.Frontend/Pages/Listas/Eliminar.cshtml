@@ -1,0 +1,19 @@
+﻿@page
+@model RUCsa.App.Frontend.Pages.EliminarModel
+@{
+}
+<h1>Eliminar estudiante</h1>
+<table class="table">
+    <tr>
+        <td>@Model.estudiante.nombre</td>
+        <td>@Model.estudiante.apellidos</td>
+        <td>@Model.estudiante.identificacion</td>
+        <td>@Model.estudiante.edad</td>
+        <td>@Model.estudiante.estadocovid</td>
+        <td>@Model.estudiante.programa</td>
+    </tr>
+</table>
+<form method="post">
+    <input type="hidden" asp-for="estudiante.identificacion"/>
+    <button type="submit" class="btn btn-primary">Confirmar Eiminación</button>
+</form>

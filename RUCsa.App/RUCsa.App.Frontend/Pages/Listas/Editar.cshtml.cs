@@ -14,9 +14,16 @@ namespace RUCsa.App.Frontend.Pages
         private static IRepositorioEstudiante _repoEstudiante=new RepositorioEstudiante(new Persistencia.AppContext());
         [BindProperty]
         public Estudiante estudiante{get;set;}
-        public IActionResult OnGet(int estudianteIdentificacion)
+        public IActionResult OnGet(int? estudianteIdentificacion)
         {
-            estudiante = _repoEstudiante.GetEstudiante(estudianteIdentificacion);
+            
+            if(estudianteIdentificacion.HasValue)
+            {
+                estudiante = _repoEstudiante.GetEstudiante(estudianteIdentificacion.Value);
+            }else
+            {
+                estudiante = new Estudiante();
+            }
             if (estudiante==null)
             {
                 return RedirectToPage("./Estudiantes");
@@ -27,7 +34,19 @@ namespace RUCsa.App.Frontend.Pages
         }
         public IActionResult OnPost()
         {
-            _repoEstudiante.UpdateEstudiante(estudiante);
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }else
+            {
+               if(estudiante.id>0)
+            {
+                _repoEstudiante.UpdateEstudiante(estudiante);
+            }else
+            {
+                _repoEstudiante.AddEstudiante(estudiante);
+            } 
+            }
             return RedirectToPage("./Estudiantes");
         }
     }
