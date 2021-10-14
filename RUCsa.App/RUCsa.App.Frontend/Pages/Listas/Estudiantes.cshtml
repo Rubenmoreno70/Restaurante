@@ -9,10 +9,19 @@
      <tr>
          <td>@estudiante.nombre</td>
          <td>@estudiante.apellidos</td>
-         <td>@estudiante.identificacion</td>
-         <td>@estudiante.edad</td>
-         <td>@estudiante.programa</td>
+         
+         <td>
+           <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-estudianteidentificacion="@estudiante.identificacion">
+             <i class="fas fa-info-circle" aria-hidden="true"></i>
+           </a>
+         </td>
+         <td>
+           <a class="btn btn-secondary table-btn" asp-page="./Editar" asp-route-estudianteidentificacion="@estudiante.identificacion">
+             <i class="fas fa-address-book" aria-hidden="true"></i>
+           </a>
+         </td>
      </tr>  
    } 
 
 </table>
+<a asp-page=".\Editar" class="btn btn-primary">Adicionar Estudiante</a>

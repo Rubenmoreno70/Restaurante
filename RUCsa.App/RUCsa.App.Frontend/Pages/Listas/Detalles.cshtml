@@ -1,0 +1,16 @@
+﻿@page
+@model RUCsa.App.Frontend.Pages.DetallesModel
+@{
+}
+<h1>Detalles de Estudiante</h1>
+<table class="table">
+    <tr>
+        <td>@Model.estudiante.nombre</td>
+        <td>@Model.estudiante.apellidos</td>
+        <td>@Model.estudiante.identificacion</td>
+        <td>@Model.estudiante.edad</td>
+        <td>@Model.estudiante.estadocovid</td>
+        <td>@Model.estudiante.programa</td>
+    </tr>
+</table>
+<a class="btn btn-primary text-dark" asp-area="" asp-page="/Listas/Estudiantes">Estudiantes</a>

@@ -1,0 +1,29 @@
+﻿@page
+@model RUCsa.App.Frontend.Pages.EditarModel
+@{
+}
+<h1>Editar Estudiante</h1>
+<form method="post">
+    <input type="hidden" asp-for="estudiante.id">
+    <div class="form group">
+        <label asp-for="estudiante.nombre"></label>
+        <input asp-for="estudiante.nombre" class="form-control">
+    </div>
+    <div class="form group">
+        <label asp-for="estudiante.apellidos"></label>
+        <input asp-for="estudiante.apellidos" class="form-control">
+    </div>
+    <div class="form group">
+        <label asp-for="estudiante.identificacion"></label>
+        <input asp-for="estudiante.identificacion" class="form-control">
+    </div>
+    <div class="form group">
+        <label asp-for="estudiante.edad"></label>
+        <input asp-for="estudiante.edad" class="form-control">
+    </div>
+    <div class="form group">
+        <label asp-for="estudiante.programa"></label>
+        <input asp-for="estudiante.programa" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
